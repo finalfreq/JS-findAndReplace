@@ -1,9 +1,12 @@
 #result {
   display: none;
-  font-size: 2em;
   text-align: inherit;
 }
 
+.result, p.lead {
+  font-size: 2em;
+
+}
 body {
   background-image: url("../media/transmutation2.jpg");
   align-items: center;
