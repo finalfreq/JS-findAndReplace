@@ -9,7 +9,7 @@ To use the app navigate to
 philosophers-stone.html
 ```
 
-once on the webpage all you need to do is fill out the form for the phrase, the word to change in the phrase, and the word to change it to. Once you click transform you will see your new gold.
+once on the webpage all you need to do is fill out the form for the phrase, the word to change in the phrase, and the word to change it to. Once you click transform you will see your new sentence made of gold.
 
 ### Bug reports
 
