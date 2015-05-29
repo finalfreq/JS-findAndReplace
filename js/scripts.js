@@ -1,12 +1,10 @@
 var findAndReplace = function(phrase, wordToReplace, replacementWord) {
-  var words = phrase.split(' ')
+  var words = phrase.toLowerCase().split(' ')
   var newSentence = []
   for (var i = 0; i < words.length; i++) {
     if (words[i] === wordToReplace) {
-      newSentence.push(replacementWord);
-    } else {
-      newSentence.push(words[i])
+      words[i] = replacementWord;
     }
   }
-  return newSentence.join(" ")
+  return words.join(" ")
 };
