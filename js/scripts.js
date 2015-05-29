@@ -6,7 +6,6 @@ var findAndReplace = function(phrase, wordToReplace, replacementWord) {
       words[i] = replacementWord;
     }
   }
-
   return words.join(" ")
 };
 
