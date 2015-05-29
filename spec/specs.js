@@ -9,14 +9,7 @@ describe('findAndReplace', function() {
   });
 
   it("will take account for special characters and not be impacted by uppercase letters", function () {
-    expect(findAndReplace("the Dog is good to the Dog", "dog", "cat")).to.equal("the cat is good to the cat")
+    expect(findAndReplace("the Dog, is good to the Dog", "dog", "cat")).to.equal("the cat is good to the cat")
   })
 
 });
-
-// describe('normalize', function() {
-//
-//   it("Will find any ", function() {
-//     expect(findAndReplace("the dog is good", "dog", "cat")).to.equal("the cat is good")
-//   });
-// });

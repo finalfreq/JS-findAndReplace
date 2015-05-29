@@ -1,10 +1,24 @@
-var findAndReplace = function(phrase, wordToReplace, replacementWord) {
-  var words = phrase.split('')
+#result {
+  display: none;
+  font-size: 2em;
+  text-align: inherit;
+}
 
-  for (var i = 0; i < words.length; i++) {
-    if (words[i] === wordToReplace) {
-      wordToReplace = replacementWord;
-    }
-  }
-  words.join(' ')
-};
+body {
+  background-image: url("../media/transmutation2.jpg");
+  align-items: center;
+  opacity: .7;
+  font-size: 1.8em;
+}
+
+.btn {
+  margin: 1.5em;
+  background-color: rgb(12, 21, 240);
+  color: silver;
+}
+.container {
+  background-color: rgb(97, 122, 255);
+  color: rgb(72, 9, 106);
+  font-family: Oldtown, fantasy;
+
+}
